@@ -9,6 +9,8 @@ const questions = [
       options: ["Elvis Presley", "Michael Jackson", "Prince", "Madonna"],
       answer: "Michael Jackson"
     },
+
+    
     // Add more questions here
   ];
   
