@@ -7,8 +7,8 @@ const questions = [
     {
       question: "'Red Skies' and 'Saved by Zero' were huge hits for which 80,s band ?",
       options: ["Flock of Seagulls", "The Fixx", "Duran Duran", "Depeche Mode"],
-      answer: "The Fixx"
-      // audioSrc: "https://soundcloud.com/popgunrerun/one-thing-leads-to-another-the?si=b780bbbaa9f0493fba395c7bff761971&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharingr",
+      answer: "The Fixx",
+     audioSrc: "https://youtu.be/pIe-Cj071l0?t=2",
       
     },
     {
