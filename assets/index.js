@@ -1,13 +1,20 @@
+
+
+
+
+
 const questions = [
     {
-      question: "What year was Michael Jackson's album 'Thriller' released?",
-      options: ["1982", "1984", "1986", "1988"],
-      answer: "1982"
+      question: "'Red Skies' and 'Saved by Zero' were huge hits for which 80,s band ?",
+      options: ["Flock of Seagulls", "The Fixx", "Duran Duran", "Depeche Mode"],
+      answer: "The Fixx"
+      // audioSrc: "https://soundcloud.com/popgunrerun/one-thing-leads-to-another-the?si=b780bbbaa9f0493fba395c7bff761971&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharingr",
+      
     },
     {
-      question: "Who is known as the 'King of Pop'?",
-      options: ["Elvis Presley", "Michael Jackson", "Prince", "Madonna"],
-      answer: "Michael Jackson"
+      question: "Who's alter-ego was Ziggy Stardust'?",
+      options: ["Iggy Pop", "Alice Cooper", "Lou Reed", "David Bowie"],
+      answer: "David Bowie"
     },
     {
       question: "Who was the original guitarist for Led Zeppellin?" ,
@@ -183,7 +190,10 @@ const questions = [
   const questionElement = document.getElementById('question');
   const optionsElement = document.getElementById('options');
   const scoreElement = document.getElementById('score');
-  
+  const playButton = document.getElementById('play-song');
+  const audio = document.getElementById('audio');
+  const audioSource = document.getElementById('audio-source');
+
   function displayQuestion() {
     const currentQuestion = questions[currentQuestionIndex];
     questionElement.textContent = currentQuestion.question;
@@ -202,6 +212,7 @@ const questions = [
     if (selectedOption === currentQuestion.answer) {
       score++;
       scoreElement.textContent = score;
+      playAudio(audioSource);
     }
     currentQuestionIndex++;
     if (currentQuestionIndex < questions.length) {
@@ -210,12 +221,29 @@ const questions = [
       alert('Game Over! Your final score is ' + score);
     }
   }
-  
+
+  function playAudio(audioSrc) {
+audioSource.src = audioSrc;
+audio.load();
+audio.play();
+  }
+
   document.getElementById('next-button').addEventListener('click', () => {
     if (currentQuestionIndex < questions.length) {
       displayQuestion();
     }
   });
   
+  
+  
+  document.getElementById('start-over').addEventListener('click',() => {
+    startOver();
+  });
+  
+  function startOver() {
+    currentQuestionIndex = 0;
+    score = 0;
+    displayQuestion();
+  }
   displayQuestion();
   
