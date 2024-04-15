@@ -17,12 +17,13 @@
         <ul id="options"></ul>
       </div>
       <div id="score-container">
-        <p>Score: <span id="score">0</span></p>
+        <p id="sctext">Score: <span id="score">0</span></p>
       </div>
-      <button id="next-button">Next Question</button>
+      <section id="next-button"></section>
       <button id="start-over">Start Over</button>
-      <button id="play-song">Play</button>
-      <audio id="audio" controls>
+      <!-- <button id="play-song">Play</button> -->
+      <!--eliminated audio control button since I am using swalfire but it is still intrinsic in code  -->
+      <audio id="audio" >
         <source id="audio-source" src="" type="audio/mpeg">
       </audio>
 
