@@ -5,7 +5,7 @@
 
 const questions = [
     {
-      question: "'Red Skies' and 'Saved by Zero' were huge hits for which 80's band ?",
+      question: "'Red Skies' and 'Saved by Zero' were huge hits for which 80's band?",
       options: ["Flock of Seagulls", "The Fixx", "Duran Duran", "Depeche Mode"],
       answer: "The Fixx",
       audioSrc: "https://youtu.be/pIe-Cj071l0?t=2",
@@ -13,22 +13,22 @@ const questions = [
     },
 
     {
-      question: "Whose alter-ego was Ziggy Stardust?",
+      question: "Always the artistic innovator. Whose alter-ego was Ziggy Stardust?",
       options: ["Iggy Pop", "Alice Cooper", "Lou Reed", "David Bowie"],
       answer: "David Bowie",
       audioSrc: "https://youtu.be/D8R_u3Yfwcs?t=15",
     },
 
     {
-      question: "Who was the original guitarist for Led Zeppellin?" ,
+      question: "One of the all-time greats. Who was the original guitarists for Led Zeppellin?" ,
       options: ["Peter Frampton", "Jeff Beck", "Larry Carlton" , "Jimmy Page"],
       answer: "Jimmy Page",
       audioSrc:"https://youtu.be/6d_wxEz1Cbg?t=19",
     },
 
     {
-      question: 'Who wrote the song "I Shot the Sheriff?"',
-      options: ["Eric Clapton", "Leon Russell", "Bob Marley", "Steel Pulse"],
+      question: 'His music will live forever. Who wrote the song "I Shot the Sheriff "?',
+      options: ["Eric Clapton", "Leon Russell", "Bob Marley", "Bob Dylan"],
       answer: "Bob Marley",
       audioSrc: "https://youtu.be/zGO8HN1QQdI?t=8"
     },
@@ -48,14 +48,14 @@ const questions = [
     },
 
     {
-      question: 'Who wrote the jazz standard "So What"?',
+      question: 'At the age of 17 he played with Dizzy Gilespie. Who wrote the jazz standard "So What"?',
       options: ["John Coltrane", "Wes Montgomery", "Thelonius Monk", "Miles Davis"],
       answer: "Miles Davis",
       audioSrc:"https://youtu.be/mwHwlgBFVmM?t=10"
     },
 
     {
-      question: 'Who was dubbed "The Queen of Salsa"?',
+      question: 'Hits like "Quimbare" among many. Who was crowned the "Queen of Salsa"?',
       options: ["Celia Cruz", "Olga Guillot", "Lola Flores", "La Lupe"],
       answer: "Celia Cruz",
       audioSrc:"https://youtu.be/TxRWQHCSmUg?t=25"
@@ -76,14 +76,14 @@ const questions = [
     },
 
     {
-      question: "Who was the singer for the band Thin Lizzy?",
+      question: "Who was the original front man for the band Thin Lizzy?",
       options: ["Sting", "Phil Lynott", "Steve Perry", "Rick Emmett"],
       answer: "Phil Lynott",
       audioSrc: "https://youtu.be/dMko8DlY9IA?list=RDdMko8DlY9IA&t=9"
     },
 
     {
-      question: "Which singer was known as 'Ol' Blue Eyes'?",
+      question: "Which singer was known as'Ol' Blue Eyes' and 'The Chairman of the Board'?",
       options: ["Frank Sinatra", "David Coverdale", "Andy Williams", "Perry Como"],
       answer: "Frank Sinatra",
       audioSrc:"https://youtu.be/ZEcqHA7dbwM?t=6"
@@ -97,7 +97,7 @@ const questions = [
     },
 
     {
-      question: '"Breezin" was a huge hit for this great guitarist',
+      question: 'The song "Breezin" was a huge hit for this great guitarist',
       options: ["Eddie Van Halen", "Mateo Mancusso", "Carlos Santana", "George Benson"],
       answer: "George Benson",
       audioSrc:"https://youtu.be/zgxL-khJ--Q?t=7"
@@ -105,14 +105,14 @@ const questions = [
 
     {
     
-      question: "What year did the Beatles play on Ed Sullivan?",
+      question: "A huge part of the British Invasion. What year did the Beatles play on Ed Sullivan?",
       options: ["1960", "1970", "1964", "1972"],
       answer: "1964",
       audioSrc:"https://youtu.be/45cYwDMibGo?t=5"
     },
 
     {
-      question: "Who was the original singer for Genesis?",
+      question: "Possibly know better for his solo career. Who was the original singer for Genesis?",
       options: ["David Vedder", "Phil Collins", "Billy Squire", "Peter Gabriel"],
       answer: "Peter Gabriel",
       audioSrc:"https://youtu.be/OJWJE0x7T4Q?t=3"
@@ -134,14 +134,14 @@ const questions = [
     },
 
     {
-      question: "Arguably the greatest Flamenco guitarist ever. Who wrote and played the original song 'Entre Dos Aguas'?",
+      question: "Arguably the best Flamenco guitarist ever he wrote and played the song 'Entre Dos Aguas'",
       options: ["Diego del Morao", "Tomatito", "Paco De Lucia", "Sabicas"],
       answer: "Paco De Lucia",
       audioSrc: "https://youtu.be/2oyhlad64-s?t=4"
     },
 
     {
-      question: "Which of these songs is not by Lynard Skynard?",
+      question: "Lynard Skynard had many hits but this was not one of them.",
       options: ["Sweet Home Alabama", "Mississippi Queen", "Tuesday's Gone", "Mr. Saturday Night"],
       answer: "Mississippi Queen",
       audioSrc:"https://youtu.be/VbP4qf8PjfI?t=4"
@@ -162,7 +162,7 @@ const questions = [
     },
 
     {
-      question: "Who was Garfunkel's singing partner?",
+      question: "A true musical icon. Who was Garfunkel's singing partner?",
       options: ["Garfinkle ", "Patsy Cline", "Simon", "Garfield"],
       answer: "Simon",
       audioSrc: "https://youtu.be/JVdlpZ4M-Hw?t=2"
@@ -206,14 +206,14 @@ const questions = [
     },
 
     {
-      question: "Which band released 'Hard to Handle' in 1990?",
+      question: "Which band released 'Hard to Handle' along with 'Remedy' in 1990?",
       options: ["Nirvana", "Rage Against the Machine", "Black Crowes", "Molly Hatchet"],
       answer: "Black Crowes",
       audioSrc:"https://youtu.be/W1tEu_ByGos?t=4"
     },
 
     {
-      question: "Who is the lead singer for Pearl Jam?",
+      question: "One of the great rock voices from early 90's. Who is the lead singer for Pearl Jam?",
       options: ["Perry Como", "Eddie Vedder", "Dave Grohl", "Michael Stipe"],
       answer: "Eddie Vedder",
       audioSrc:"https://youtu.be/CxKWTzr-k6s?t=21"
@@ -221,7 +221,7 @@ const questions = [
     },
 
     {
-      question: "Who was the drummer for the band, The Police?",
+      question: "He was a huge part of this bands unique soundWho was the drummer, The Police?",
       options: ["Dave Grohl", "Stewart Copeland", "John Bonham", "Neil Pert"],
       answer: "Stewart Copeland",
       audioSrc: "https://youtu.be/zPwMdZOlPo8?list=RDzPwMdZOlPo8&t=6"
@@ -255,14 +255,25 @@ const questions = [
   const questionElement = document.getElementById('question');
   const optionsElement = document.getElementById('options');
   const scoreElement = document.getElementById('score');
+  // eliminated the old code to get rid of buttons that were no longer being used
+
   // const playButton = document.getElementById('play-song');
   // const audio = document.getElementById('audio');
   const audioSource = document.getElementById('audio-source');
 
   function displayQuestion() {
     const currentQuestion = questions[currentQuestionIndex];
-    questionElement.textContent = currentQuestion.question;
-  
+    const questionText = currentQuestion.question;
+    // questionElement.textContent = currentQuestion.question;
+    const lineBreakThreshold = 10;
+  // adjust for shorter questions as it affects the css//
+  if (questionText.length > lineBreakThreshold) {
+    questionElement.textContent = questionText;
+  }
+  else {
+  questionElement.innerHTML = questionText.replace(/\n/g, "<br>");  
+  }
+
     optionsElement.innerHTML = '';
     currentQuestion.options.forEach(option => {
       const li = document.createElement('li');
