@@ -5,7 +5,7 @@
 
 const questions = [
     {
-      question: "'Red Skies' and 'Saved by Zero' were huge hits for which 80's band?",
+      question: "The songs 'Red Skies' and 'Saved by Zero' were huge hits for which 80's band?",
       options: ["Flock of Seagulls", "The Fixx", "Duran Duran", "Depeche Mode"],
       answer: "The Fixx",
       audioSrc: "https://youtu.be/pIe-Cj071l0?t=2",
@@ -13,7 +13,7 @@ const questions = [
     },
 
     {
-      question: "Always the artistic innovator. Whose alter-ego was Ziggy Stardust?",
+      question: "Always the artistic innovator. Whose alter-ego was known as 'Ziggy Stardust'?",
       options: ["Iggy Pop", "Alice Cooper", "Lou Reed", "David Bowie"],
       answer: "David Bowie",
       audioSrc: "https://youtu.be/D8R_u3Yfwcs?t=15",
@@ -27,21 +27,21 @@ const questions = [
     },
 
     {
-      question: 'His music will live forever. Who wrote the song "I Shot the Sheriff "?',
+      question: 'His music will live on forever. Who wrote the song "I Shot the Sheriff"?',
       options: ["Eric Clapton", "Leon Russell", "Bob Marley", "Bob Dylan"],
       answer: "Bob Marley",
       audioSrc: "https://youtu.be/zGO8HN1QQdI?t=8"
     },
 
     {
-      question: "'Should I Stay or Should I Go' was a huge hit for which band?",
+      question: "'Should I Stay or Should I Go' was a huge hit for which British band?",
       options: ["The Ramones", "Velvet Underground", "The Sex Pistols", "The Clash"],
       answer: "The Clash",
       audioSrc: "https://youtu.be/e7tWqyM3r-g?t=29"
     },
 
     {
-      question: '"Sweetest Tabboo" and "Smooth Operator" were huge hits for which singer',
+      question: '"Sweetest Tabboo" and "Smooth Operator" were huge hits for which singer?',
       options: ["Tina Marie", "Whitney Houston", "Sade", "Anita Baker"],
       answer: "Sade",
       audioSrc:"https://youtu.be/kcPc18SG6uA?t=9"
@@ -62,21 +62,21 @@ const questions = [
     },
 
     {
-      question: 'Which band wrote and performed the theme song for the show "Bad Boys"?',
+      question: 'Which band wrote and performed the hit theme song for the show "Bad Boys"?',
       options: ["UB40", "Inner Circle", "Third World", "Aswad"],
       answer: "Inner Circle",
       audioSrc:"https://youtu.be/2Q3dGZPguSM?t=11"
     },
 
     {
-      question: '"Birdland" was a huge hit for this jazz Giant in 1971.',
+      question: '"Birdland" was a huge hit for this jazz Giant in 1971 and has been covered by many others.',
       options: ["Charlie Parker", "Glen Miller", "Tower of Power", "Weather Report"],
       answer: "Weather Report",
       audioSrc: "https://youtu.be/vz7nMBLUnDc?t=12"
     },
 
     {
-      question: "Who was the original front man for the band Thin Lizzy?",
+      question: "'Jailbreak' was a huge hit in the 70's. Who was the original front man for the band Thin Lizzy?",
       options: ["Sting", "Phil Lynott", "Steve Perry", "Rick Emmett"],
       answer: "Phil Lynott",
       audioSrc: "https://youtu.be/dMko8DlY9IA?list=RDdMko8DlY9IA&t=9"
@@ -90,14 +90,14 @@ const questions = [
     },
 
     {
-      question: "Moonglow was a big hit in 1936 for this band leader?",
+      question: "'Moonglow' and 'Let's Dance' were big hits in the 1930's for this band leader?",
       options: ["Artie Shaw", "Tommy Dorsey", "Dave Brubeck", "Benny Goodman"],
       answer: "Benny Goodman",
       audioSrc:"https://youtu.be/4dm3Ml9g_cs?t=3"
     },
 
     {
-      question: 'The song "Breezin" was a huge hit for this great guitarist',
+      question: 'The song "Breezin" was a huge hit for this great guitarist and vocalist.',
       options: ["Eddie Van Halen", "Mateo Mancusso", "Carlos Santana", "George Benson"],
       answer: "George Benson",
       audioSrc:"https://youtu.be/zgxL-khJ--Q?t=7"
@@ -134,42 +134,42 @@ const questions = [
     },
 
     {
-      question: "Arguably the best Flamenco guitarist ever he wrote and played the song 'Entre Dos Aguas'",
+      question: "Arguably the best Flamenco guitarist ever he wrote and played the song 'Entre Dos Aguas'.",
       options: ["Diego del Morao", "Tomatito", "Paco De Lucia", "Sabicas"],
       answer: "Paco De Lucia",
       audioSrc: "https://youtu.be/2oyhlad64-s?t=4"
     },
 
     {
-      question: "Lynard Skynard had many hits but this was not one of them.",
+      question: "Lynard Skynard had many hits during his career, but this was not one of them.",
       options: ["Sweet Home Alabama", "Mississippi Queen", "Tuesday's Gone", "Mr. Saturday Night"],
       answer: "Mississippi Queen",
       audioSrc:"https://youtu.be/VbP4qf8PjfI?t=4"
     },
 
     {
-      question: "The orangutang in the Jungle Book sings 'I wanna be like you'. Who is the voice behind the primate?",
+      question: "The orangutan in the Jungle Book sings 'I wanna be like you'. Who is the voice behind the primate?",
       options: ["Dean Martin", "Bing Crosby", "Louie Prima", "Bobby Darin"],
       answer: "Louie Prima",
       audioSrc: "https://youtu.be/u3oTAlHkpjU?t=105"
     },
 
     {
-      question: "What year was the Pink Floyd album 'Dark Side of the Moon' released?",
+      question: "In what year was the Pink Floyd album 'Dark Side of the Moon' released?",
       options: ["1973", "1969", "1978", "1982"],
       answer: "1973",
       audioSrc: "https://youtu.be/n3_5SPQIfQw"
     },
 
     {
-      question: "A true musical icon. Who was Garfunkel's singing partner?",
+      question: "This duo had numerous hits. A true musical icon. Who was Garfunkel's singing partner?",
       options: ["Garfinkle ", "Patsy Cline", "Simon", "Garfield"],
       answer: "Simon",
       audioSrc: "https://youtu.be/JVdlpZ4M-Hw?t=2"
     },
 
     {
-      question: "Geddy Lee was the lead singer of which famous rock band?",
+      question: "Geddy Lee was the original bassist and lead singer of which famous rock band?",
       options: ["King Crimson", "Rush", "Triumph", "Boston"],
       answer: "Rush",
       audioSrc:"https://youtu.be/g_QtO0Rhp0w?t=7"
@@ -178,15 +178,15 @@ const questions = [
 
     {
 
-      question: "In this song by Eddie Money, how many tickets does he have to Paradise?",
+      question: "In this famous song by Eddie Money, how many tickets does he have to Paradise?",
       options: ["1", "8", "2", "3"],
       answer: "2",
       audioSrc:"https://youtu.be/JxcUmAVG3RQ?t=3"
     },
 
     {
-      question: "Who is Jane 'through with' in this 1988 hit by Jane's Addiction?",
-      options: ["Romeo", "Everybody", "Sergio", "Cameo's"],
+      question: "Who is Jane 'through with' in this 1988 hit about drug abuse by Jane's Addiction?",
+      options: ["Romeo", "Everybody", "Sergio", "Cameo"],
       answer: "Sergio",
       audioSrc: "https://youtu.be/i7Q_8q3XXrQ?t=41"
     },
@@ -206,14 +206,14 @@ const questions = [
     },
 
     {
-      question: "Which band released 'Hard to Handle' along with 'Remedy' in 1990?",
+      question: "Which American rock  band released 'Hard to Handle' along with 'Remedy' in 1990?",
       options: ["Nirvana", "Rage Against the Machine", "Black Crowes", "Molly Hatchet"],
       answer: "Black Crowes",
       audioSrc:"https://youtu.be/W1tEu_ByGos?t=4"
     },
 
     {
-      question: "One of the great rock voices from early 90's. Who is the lead singer for Pearl Jam?",
+      question: "One of the great rock voices from the early 90's. Who is the lead singer for Pearl Jam?",
       options: ["Perry Como", "Eddie Vedder", "Dave Grohl", "Michael Stipe"],
       answer: "Eddie Vedder",
       audioSrc:"https://youtu.be/CxKWTzr-k6s?t=21"
@@ -221,15 +221,15 @@ const questions = [
     },
 
     {
-      question: "He was a huge part of this bands unique soundWho was the drummer, The Police?",
+      question: "He was a huge part of this band's unique sound. Who was the drummer for The Police?",
       options: ["Dave Grohl", "Stewart Copeland", "John Bonham", "Neil Pert"],
       answer: "Stewart Copeland",
       audioSrc: "https://youtu.be/zPwMdZOlPo8?list=RDzPwMdZOlPo8&t=6"
     },
 
     {
-      question: "'Reasons' was a huge hit for this band in the early 70's?",
-      options: ["Parliament", "Kool and the Gang", "Earth, Wind and Fire", "The O'jays"],
+      question: "'Reasons' and 'Shining Star' were huge hits for this band in the mid 1970's?",
+      options: ["Parliament", "Kool and the Gang", "Earth, Wind and Fire", "The O'Jays"],
       answer: "Earth, Wind and Fire",
       audioSrc:"https://youtu.be/0Qz_b1di3i8?t=3"
     },
@@ -379,4 +379,4 @@ audio.play();
     
   }
   displayQuestion();
-  
+ 
