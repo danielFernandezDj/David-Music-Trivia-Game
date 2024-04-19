@@ -89,9 +89,9 @@ margin-right: 3%;
    border-radius: 20px;
   color: blue;
   }
-  .curtain { 
+  #curtain { 
     position: relative;
-    right: 0%;
+    left: 20%;
     width: 100%;
     height: 100vh;
     overflow: hidden;
@@ -106,18 +106,18 @@ margin-right: 3%;
    
     width: 50%;
     height: 100%;
-    background-color: #000; /* Adjust as needed */
+    background-image: url('https://media.istockphoto.com/id/468616445/photo/red-curtain.jpg?s=2048x2048&w=is&k=20&c=NepAIRgiDe4YYT7JYmATC5daiE863F_N4BLvp3_xqso=') /* Adjust as needed */
   } 
   
   .curtain-left {
-    offset-position: 20%;
-    left: 0;
-    animation: open-curtain 8s forwards;
+    offset-position: -20%;
+    left: ;
+    animation: open-curtain 12s forwards;
   }
   
   .curtain-right {
     right: -8%;
-    animation: open-curtain 8s forwards;
+    animation: open-curtain 12s forwards;
   }
   
   @keyframes open-curtain {
