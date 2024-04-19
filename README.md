@@ -6,7 +6,7 @@
 
  ## Deployment
 
- This web is deployed at  https://david111922.github.io/David111922-Music-Trivia.github.io/
+ This web is deployed at https://david111922.github.io/Music-Trivia-Game/
 
 
 
