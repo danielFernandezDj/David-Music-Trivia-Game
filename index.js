@@ -319,7 +319,6 @@ const audioSource = document.getElementById("audio-source");
 function displayQuestion() {
   const currentQuestion = questions[currentQuestionIndex];
   const questionText = currentQuestion.question;
-  // questionElement.textContent = currentQuestion.question;
   // !adjust line break for css purposes
   const lineBreakThreshold = 10;
   // adjust for shorter questions as it affects the css//
@@ -338,7 +337,7 @@ function displayQuestion() {
     optionsElement.appendChild(li);
   });
 }
-// !Previous code prior to replacing with swal.fire
+// !Previous code prior to replacing it with swal.fire
 // function checkAnswer(selectedOption) {
 //   const currentQuestion = questions[currentQuestionIndex];
 //   if (selectedOption === currentQuestion.answer) {

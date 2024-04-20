@@ -12,8 +12,8 @@
 
  ## Gme Logic
 
- The game starts with the openning of a curtain that initiates the beginning of the game. Underneath the neon message "You are what you listen to will be an initial
- question on general knowledge of music. In the preceding verticle block the player will have four answers to choose from. If the user answers incorrectly the game
+ The game starts with the opening of a curtain that initiates the beginning of the game. Underneath the neon message "You are what you listen to will be an initial
+ question on general knowledge of music. In the preceding vertical block the player will have four answers to choose from. If the user answers incorrectly the game
  will automatically go to the next question. On the very bottom there is a score section. The score will remain the same. If the player answers correctly the score
  will increment by 1. There will be a pop up with a congratulatory message and an option of playing a related youtube link. If the user chooses to play the link. he or
  she simply closes the link and the game will continue to the subsequent question. There is an oval start over button  which allows the player to try again. Once 
@@ -22,7 +22,7 @@
  ### Post-MVP Plans
 
 I would like to close the curtains when the game ends and have some applause.
-Possibly addind a aprevious question option is something that that user might appreciate.
+Possibly adding a previous question option is something that that user might appreciate.
 Adding mp3 links is something I would like to explore further.
  
 
