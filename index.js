@@ -1,8 +1,5 @@
 
-
-
-
-
+// !-- questions and answers section--//
 const questions = [
     {
       question: "The songs 'Red Skies' and 'Saved by Zero' were huge hits for which 80's band?",
@@ -238,42 +235,36 @@ const questions = [
 
 
 
-
-
-
-
-
-    
-
-    
     // Add more questions here
   ];
-  
-  let currentQuestionIndex = 0;
-  let score = 0;
-  
-  const questionElement = document.getElementById('question');
-  const optionsElement = document.getElementById('options');
-  const scoreElement = document.getElementById('score');
+  // !variable to keep track of current question and score
+   let currentQuestionIndex = 0;
+   let score = 0;
+  // !variable stores reference to html
+   const questionElement = document.getElementById('question');
+   const optionsElement = document.getElementById('options');
+   const scoreElement = document.getElementById('score');
   // eliminated the old code to get rid of buttons that were no longer being used
 
   // const playButton = document.getElementById('play-song');
   // const audio = document.getElementById('audio');
-  const audioSource = document.getElementById('audio-source');
+   const audioSource = document.getElementById('audio-source');
 
-  function displayQuestion() {
+   function displayQuestion() {
     const currentQuestion = questions[currentQuestionIndex];
     const questionText = currentQuestion.question;
     // questionElement.textContent = currentQuestion.question;
+    // !adjust linebreak for css purposes
     const lineBreakThreshold = 10;
   // adjust for shorter questions as it affects the css//
+  
   if (questionText.length > lineBreakThreshold) {
     questionElement.textContent = questionText;
   }
   else {
   questionElement.innerHTML = questionText.replace(/\n/g, "<br>");  
   }
-
+  // ! event listener to click on answer/option
     optionsElement.innerHTML = '';
     currentQuestion.options.forEach(option => {
       const li = document.createElement('li');
@@ -282,7 +273,7 @@ const questions = [
       optionsElement.appendChild(li);
     });
   }
-  
+  // !Previous code prior to replacing with swalfire
   // function checkAnswer(selectedOption) {
   //   const currentQuestion = questions[currentQuestionIndex];
   //   if (selectedOption === currentQuestion.answer) {
@@ -297,6 +288,7 @@ const questions = [
   //     alert('Game Over! Your final score is ' + score);
   //   }
   // }
+  // !this section add 1 point to score
   function checkAnswer(selectedOption) {
     const currentQuestion = questions[currentQuestionIndex];
     if (selectedOption === currentQuestion.answer) {
@@ -328,31 +320,7 @@ const questions = [
     }
   }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+// !This section allows for audio source
   function playAudio(audioSrc) {
 audioSource.src = audioSrc;
 audio.load();
@@ -370,7 +338,7 @@ audio.play();
   document.getElementById('start-over').addEventListener('click',() => {
     startOver();
   });
-  
+  // !start over section reverts to 0
   function startOver() {
     currentQuestionIndex = 0;
     score = 0;
