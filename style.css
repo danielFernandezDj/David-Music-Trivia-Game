@@ -1,6 +1,6 @@
 body {
     font-family: Arial, sans-serif;
-background-position: center;
+background-position: 32%;
    background-image: url('https://images.unsplash.com/photo-1508700115892-45ecd05ae2ad?q=80&w=2669&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
    background-repeat: no-repeat;
 background-attachment: fixed;
@@ -47,13 +47,13 @@ background-attachment: fixed;
   }
   
   #qa-block{
-margin-top: 25%;
+margin-top: 26%;
 margin-bottom: 5em;
 background-color:blanchedalmond;
 height: 35.8vh;
 min-width: 43.4%;
 max-width: 600px;
-margin-left: 25%;
+margin-left: 30%;
 border-top-right-radius: 25px;
 border-top-left-radius: 25px;
 border: 5px solid;
@@ -80,8 +80,8 @@ margin-right: 3%;
 
   #start-over {
    position: absolute;
-   left: 45%;
-   bottom: 8.1%;
+   left: 50%;
+   bottom: 5.7%;
    /* transform: translate(-10%); */
    height: 4%;
    border: 3px solid;
@@ -102,16 +102,16 @@ margin-right: 3%;
   .curtain-right {
     position: absolute;
     top: 0;
-    /* right: 55%; */
-   
-    width: 50%;
+     right: 55%; 
+    
+    width: 50%; 
     height: 100%;
     background-image: url('https://media.istockphoto.com/id/468616445/photo/red-curtain.jpg?s=2048x2048&w=is&k=20&c=NepAIRgiDe4YYT7JYmATC5daiE863F_N4BLvp3_xqso=') /* Adjust as needed */
   } 
   
   .curtain-left {
     offset-position: -20%;
-    left: ;
+    /* left: ; */
     animation: open-curtain 12s forwards;
   }
   
