@@ -9,28 +9,56 @@
 </head>
 
 <body>
-  
+
+  <img id="background-image"
+    src="https://images.unsplash.com/photo-1508700115892-45ecd05ae2ad?q=80&w=2669&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+    alt="background image">
+
   <!-- <div id="curtain"> -->
-  <div class="curtain-left"></div>
-  <div class="curtain-right"></div>
+  <!-- <div class="curtain-left"></div> -->
+  <!-- <div class="curtain-right"></div> -->
 
 
-  <section id=qa-block>
-    <div id="question-container">
-      <h2 id="question"></h2>
-      <ul id="options"></ul>
+
+  <section id="main-section">
+    <div id="qa-block">
+
+      <div id="q-and-a-div">
+        <h2 id="question"></h2>
+        <div id="question-container">
+          <ul id="options"></ul>
+        </div>
+
+        <button id="start-over">
+          Start Over
+        </button>
+
+        <button id="how-to-play">
+          How to Play
+        </button>
+
+        <div id="score-container">
+          <p id="sctext">Score: <span id="score">0</span></p>
+        </div>
+      </div>
+
+      <div id="how-to-play-popup">
+        <!-- A Image goes here, also you can add it in other way like!
+        example: with a 'h2' or something similar ;) -->
+        <p>Text goes Here!</p>
+        <h2 id="x-button-popup">
+          X
+        </h2>
+      </div>
+
+      <div id="next-button">
+        <!-- something goes here -->
+      </div>
+
+      <audio id="audio">
+        <source id="audio-source" src="" type="audio/mpeg">
+      </audio>
     </div>
-    <div id="score-container">
-      <p id="sctext">Score: <span id="score">0</span></p>
-    </div>
-    <section id="next-button"></section>
-    <button id="start-over">Start Over</button>
-    <!-- <button id="play-song">Play</button> -->
-    <!--eliminated audio control button since I am using swalfire but it is still intrinsic in code  -->
-    <audio id="audio">
-      <source id="audio-source" src="" type="audio/mpeg">
-    </audio>
-
   </section>
 
   </div>

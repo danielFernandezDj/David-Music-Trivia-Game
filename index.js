@@ -411,3 +411,18 @@ function startOver() {
   displayQuestion();
 }
 displayQuestion();
+
+
+// Add a pop up for the "how to play"!
+const divPopUp = document.getElementById('how-to-play-popup')
+const xButton = document.getElementById('x-button-popup')
+document.getElementById('how-to-play').addEventListener('click', () => {
+  console.log('button is press it')
+  divPopUp.style.display = 'block';
+  xButton.style.display = 'block';
+})
+
+document.getElementById('x-button-popup').addEventListener('click', () => {
+  divPopUp.style.display = 'none';
+  xButton.style.display = 'none';
+})
